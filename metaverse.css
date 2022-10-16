@@ -48,9 +48,6 @@
 }
 
 @media (max-width: 1199px) {
-  #press img {
-    height: 35px;
-  }
   .card-img {
     min-height: 375px;
   }
@@ -74,4 +71,43 @@
 
 .text-justify {
   text-align: justify;
+}
+
+.coverage {
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.coverage a {
+  text-decoration: none;
+}
+
+.coverage img {
+  height: 70px;
+  margin: 18px 0;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+@media (max-width: 1399px) {
+  .coverage img {
+    height: 60px;
+    margin: 12px 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .coverage img {
+    height: 50px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .coverage img {
+    height: 30px;
+    margin: 8px 0;
+  }
 }

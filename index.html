@@ -31,6 +31,8 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metadata">MetaData</a></li>
                 <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaguard">MetaGuard</a></li>
+                <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaverse-sok">Privacy SoK</a></li>
+                <li><a class="dropdown-item" href="https://rdi.berkeley.edu/vr-identification">Identification</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item active" href="https://rdi.berkeley.edu/metaverse">View All</a></li>
               </ul>
@@ -43,6 +45,8 @@
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -61,6 +65,20 @@
             <p><a class="btn btn-primary btn-sm" href="https://rdi.berkeley.edu/metadata"><i class="fa fa-arrow-up-right-from-square"></i>&nbsp; Learn More</a>&nbsp;<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/2207.13176" target="_blank"><i class="fa fa-file-lines"></i>&nbsp; Read Paper</a></p>
           </div>
         </div>
+        <div class="carousel-item">
+          <div class="carousel-img" style="background-image: url('img/sok.svg'); background-size: auto 400px; background-position-y: 25px;"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="mb-2 text-black" style="text-shadow: none">&ldquo;SoK: Data Privacy in Virtual Reality&rdquo;</h5>
+            <p><a class="btn btn-primary btn-sm" href="https://rdi.berkeley.edu/metaverse-sok"><i class="fa fa-arrow-up-right-from-square"></i>&nbsp; Learn More</a>&nbsp;<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/2301.05940" target="_blank"><i class="fa fa-file-lines"></i>&nbsp; Read Paper</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-img" style="background-image: url('img/identity-slide.png')"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="mb-2 text-shadow">&ldquo;Unique Identification of 50,000+ VR Users from Head & Hand Motion&rdquo;</h5>
+            <p><a class="btn btn-primary btn-sm" href="https://rdi.berkeley.edu/vr-identification"><i class="fa fa-arrow-up-right-from-square"></i>&nbsp; Learn More</a>&nbsp;<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/2302.08927" target="_blank"><i class="fa fa-file-lines"></i>&nbsp; Read Paper</a></p>
+          </div>
+        </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -74,40 +92,39 @@
     <div class="bg-dark text-white py-4">
       <div class="container text-center">
         <h5 class="mb-4"><i>Key researchers:</i></h5>
-        <div class="row">
-          <div class="col-4">
-            <div class="row align-items-center">
-              <div class="col-lg-6 text-lg-end">
-                <img src="img/dawn.jpg" height="120" class="rounded-circle" />
-              </div>
-              <div class="col-lg-6 text-lg-start">
-                <h3 class="text-truncate">Dawn Song</h3>
-                <a class="btn btn-primary btn-sm mt-2" href="https://people.eecs.berkeley.edu/~dawnsong" target="_blank"><i class="fa fa-link"></i>&nbsp; Website</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="row align-items-center">
-              <div class="col-lg-6 text-lg-end">
-                <img src="img/vivek.jpg" height="120" class="rounded-circle" />
-              </div>
-              <div class="col-lg-6 text-lg-start">
-                <h3 class="text-truncate">Vivek Nair</h3>
-                <a class="btn btn-primary btn-sm mt-2" href="https://nair.me" target="_blank"><i class="fa fa-link"></i>&nbsp; Website</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="row align-items-center">
-              <div class="col-lg-6 text-lg-end">
-                <img src="img/gonzalo.jpg" height="120" class="rounded-circle" />
-              </div>
-              <div class="col-lg-6 text-lg-start">
-                <h3 class="text-truncate">Gonzalo Munilla Garrido</h3>
-                <a class="btn btn-primary btn-sm mt-2" href="https://www.linkedin.com/in/gonzalo-munilla/" target="_blank"><i class="fa fa-link"></i>&nbsp; Website</a>
-              </div>
-            </div>
-          </div>
+        <div>
+          <a style="display: inline-block" width="120px" href="https://nair.me">
+            <img src="img/vivek.jpg" height="120" class="rounded-circle" />
+            <p style="color: #fff; text-decoration: none; outline: none;">Vivek Nair</p>
+          </a>
+            <a style="display: inline-block" width="120px" href="https://nair.me">
+              <img src="img/gonzalo.jpg" height="120" class="rounded-circle" />
+              <p style="color: #fff; text-decoration: none; outline: none;">Gonzalo M. Garrido</p>
+            </a>
+          <a style="display: inline-block" width="120px" href="https://henrygwb.github.io/">
+            <img src="img/wenbo.jpg" height="120" class="rounded-circle" />
+            <p style="color: #fff; text-decoration: none; outline: none;">Wenbo Guo</p>
+          </a>
+          <a style="display: inline-block" width="120px" href="https://justusmattern.github.io/">
+            <img src="img/justus.png" height="120" class="rounded-circle" />
+            <p style="color: #fff; text-decoration: none; outline: none;">Justus Mattern</p>
+          </a>
+          <a style="display: inline-block" width="120px" href="https://github.com/Rui-Wang-813">
+            <img src="img/rui.jfif" height="120" class="rounded-circle" />
+            <p style="color: #fff; text-decoration: none; outline: none;">Rui Wang</p>
+          </a>
+          <a style="display: inline-block" width="120px" href="http://obrien.berkeley.edu/">
+            <img src="img/james.jfif" height="120" class="rounded-circle" />
+            <p style="color: #fff; text-decoration: none; outline: none;">James F. O'Brien</p>
+          </a>
+          <a style="display: inline-block" width="120px" href="https://unanimous.ai/staff-item/louis-rosenberg-phd/">
+            <img src="img/louis.jfif" height="120" class="rounded-circle" />
+            <p style="color: #fff; text-decoration: none; outline: none;">Louis Rosenberg</p>
+          </a>
+          <a style="display: inline-block" width="120px" href="https://dawnsong.io">
+            <img src="img/dawn.jpg" height="120" class="rounded-circle" />
+            <p style="color: #fff; text-decoration: none; outline: none;">Dawn Song</p>
+          </a>
         </div>
       </div>
     </div>
@@ -188,6 +205,38 @@
         <div class="card">
           <div class="row align-items-center">
             <div class="col-lg-4">
+              <div class="card-img" style="background-image: url('img/ident.png')">
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="p-4">
+                <h4>Unique Identification of 50,000+ VR Users from Head & Hand Motion</h4>
+                <h6 class="text-secondary">2023 &nbsp;|&nbsp; Vivek Nair &middot; Wenbo Guo &middot; Justus Mattern &middot; Rui Wang &middot; James F. O’Brien &middot; Louis Rosenberg &middot; Dawn Song</h6>
+                <p class="text-justify">With the recent explosive growth of interest and investment in VR, public attention has rightly shifted toward the unique security and privacy threats that these platforms may pose. While it has long been known that people reveal information about themselves via their motion, the extent to which this makes an individual globally identifiable within virtual reality has not yet been widely understood. In this study, we show that a large number of real VR users can be uniquely identified across multiple sessions using just their head and hand motion&hellip;</p>
+                <p class="mb-0"><a class="btn btn-primary btn-sm" href="https://rdi.berkeley.edu/vr-identification"><i class="fa fa-arrow-up-right-from-square"></i>&nbsp; Learn More</a>&nbsp;<a class="btn btn-secondary btn-sm" href="https://arxiv.org/abs/2302.08927" target="_blank"><i class="fa fa-file-lines"></i>&nbsp; Read Paper</a>&nbsp;<a class="btn btn-secondary btn-sm" href="https://github.com/MetaGuard/Identification" target="_blank"><i class="fab fa-github"></i>&nbsp; View Repo</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-4">
+          <div class="row align-items-center">
+            <div class="col-lg-4 order-lg-last">
+              <div class="card-img" style="background-image: url('img/sok.svg')">
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="p-4">
+                <h4>SoK: Data Privacy in Virtual Reality</h4>
+                <h6 class="text-secondary">2022 &nbsp;|&nbsp; Gonzalo Munilla Garrido &middot; Vivek Nair &middot; Dawn Song &nbsp;|&nbsp; https://doi.org/10.48550/arXiv.2301.05940</h6>
+                <p class="text-justify">The adoption of VR technologies has rapidly gained momentum in recent years as companies around the world begin to position the so-called "metaverse" as the next major medium for accessing and interacting with the internet. While consumers have become accustomed to a degree of data harvesting on the web, the real-time nature of data sharing in the metaverse indicates that privacy concerns are likely to be even more prevalent in the new "Web 3.0." Research into VR privacy has demonstrated that a plethora of sensitive personal information is observable by various would-be adversaries from just a few minutes of telemetry data. This paper aims to systematize knowledge on the landscape of VR privacy threats and countermeasures&hellip;</p>
+                <p class="mb-0"><a class="btn btn-primary btn-sm" href="https://rdi.berkeley.edu/metaverse-sok"><i class="fa fa-arrow-up-right-from-square"></i>&nbsp; Learn More</a>&nbsp;<a class="btn btn-secondary btn-sm" href="https://arxiv.org/abs/2301.05940" target="_blank"><i class="fa fa-file-lines"></i>&nbsp; Read Paper</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-4">
+          <div class="row align-items-center">
+            <div class="col-lg-4">
               <div class="card-img" style="background-image: url('img/metadata-thumb.png')">
               </div>
             </div>
@@ -221,7 +270,7 @@
     </div>
     <div class="bg-dark text-white text-center py-2">
       <div class="container">
-        <p class="m-0">Copyright &copy;2022 UC Regents &nbsp;|&nbsp; Email us at <a href="mailto:rdi@berkeley.edu">rdi@berkeley.edu</a>.</p>
+        <p class="m-0">Copyright &copy;2022-2023 UC Regents &nbsp;|&nbsp; Email us at <a href="mailto:rdi@berkeley.edu">rdi@berkeley.edu</a>.</p>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

@@ -33,9 +33,10 @@
             <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaverse/metaguard">MetaGuard</a></li>
             <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaverse/sok">Privacy SoK</a></li>
             <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaverse/identification">Identification</a></li>
+            <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaverse/profiling">Profiling</a></li>
             <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaverse/boxrr-23">BOXRR Dataset</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item active" href="https://rdi.berkeley.edu/metaverse">View All</a></li>
+            <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaverse">View All</a></li>
           </ul>
         </li>
       </ul>
@@ -49,6 +50,7 @@
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -81,6 +83,13 @@
             <p><a class="btn btn-primary btn-sm" href="https://rdi.berkeley.edu/vr-identification"><i class="fa fa-arrow-up-right-from-square"></i>&nbsp; Learn More</a>&nbsp;<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/2302.08927" target="_blank"><i class="fa fa-file-lines"></i>&nbsp; Read Paper</a></p>
           </div>
         </div>
+        <div class="carousel-item">
+          <div class="carousel-img" style="background-image: url('img/thumb.png')"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="mb-2 text-shadow">&ldquo;Inferring Private Personal Attributes of Virtual Reality Users from Head and Hand Motion Data&rdquo;</h5>
+            <p><a class="btn btn-primary btn-sm" href="https://rdi.berkeley.edu/metaverse/profiling"><i class="fa fa-arrow-up-right-from-square"></i>&nbsp; Learn More</a>&nbsp;<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/2305.19198" target="_blank"><i class="fa fa-file-lines"></i>&nbsp; Read Paper</a></p>
+          </div>
+        </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -106,14 +115,6 @@
           <a style="display: inline-block" width="120px" href="https://henrygwb.github.io/">
             <img src="img/wenbo.jpg" height="120" class="rounded-circle" />
             <p style="color: #fff; text-decoration: none; outline: none;">Wenbo Guo</p>
-          </a>
-          <a style="display: inline-block" width="120px" href="https://justusmattern.github.io/">
-            <img src="img/justus.png" height="120" class="rounded-circle" />
-            <p style="color: #fff; text-decoration: none; outline: none;">Justus Mattern</p>
-          </a>
-          <a style="display: inline-block" width="120px" href="https://github.com/Rui-Wang-813">
-            <img src="img/rui.jfif" height="120" class="rounded-circle" />
-            <p style="color: #fff; text-decoration: none; outline: none;">Rui Wang</p>
           </a>
           <a style="display: inline-block" width="120px" href="http://obrien.berkeley.edu/">
             <img src="img/james.jfif" height="120" class="rounded-circle" />
@@ -206,6 +207,22 @@
       <div class="container">
         <div class="card">
           <div class="row align-items-center">
+            <div class="col-lg-4 order-lg-last" style="padding-right: 10px;">
+              <div class="card-img" style="min-height: 310px; background-image: url('img/thumb.png')">
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="p-4">
+                <h4>Inferring Private Personal Attributes of Virtual Reality Users from Head and Hand Motion Data</h4>
+                <h6 class="text-secondary">2023 &nbsp;|&nbsp; Vivek Nair &middot; Christian Rack &middot; Wenbo Guo &middot; Rui Wang &middot; Shuixian Li &middot; Brandon Huang &middot; Atticus Cull &middot; James F. O'Brien &middot; Marc Latoschik &middot; Louis Rosenberg &middot; Dawn Song | https://doi.org/10.48550/arXiv.2305.19198</h6>
+                <p class="text-justify">Motion tracking 'telemetry' data lies at the core of nearly all modern virtual reality (VR) and metaverse experiences. While generally presumed innocuous, recent studies have demonstrated that motion data actually has the potential to uniquely identify VR users. In this study, we go a step further, showing that a variety of private user information can be inferred just by analyzing motion data recorded from VR devices&hellip;</p>
+                <p class="mb-0"><a class="btn btn-primary btn-sm" href="https://rdi.berkeley.edu/metaverse/profiling"><i class="fa fa-arrow-up-right-from-square"></i>&nbsp; Learn More</a>&nbsp;<a class="btn btn-secondary btn-sm" href="https://arxiv.org/abs/2305.19198" target="_blank"><i class="fa fa-file-lines"></i>&nbsp; Read Paper</a>&nbsp;<a class="btn btn-secondary btn-sm" href="https://github.com/MetaGuard/Profiling" target="_blank"><i class="fab fa-github"></i>&nbsp; View Repo</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-4">
+          <div class="row align-items-center">
             <div class="col-lg-4">
               <div class="card-img" style="background-image: url('img/ident.png')">
               </div>
@@ -254,7 +271,7 @@
         </div>
         <div class="card mt-4">
           <div class="row align-items-center">
-            <div class="col-lg-4 order-lg-last">
+            <div class="col-lg-4 order-lg-last" style="padding-right: 10px;">
               <div class="card-img" style="background-image: url('img/metaguard.png')">
               </div>
             </div>
@@ -271,10 +288,11 @@
       </div>
     </div>
     <div class="bg-dark text-white text-center py-2">
-      <div class="container">
-        <p class="m-0">Copyright &copy;2022-2023 UC Regents &nbsp;|&nbsp; Email us at <a href="mailto:rdi@berkeley.edu">rdi@berkeley.edu</a>.</p>
-      </div>
-    </div>
+  <div class="container">
+    <p class="m-0">Copyright &copy;2022&ndash;2023 UC Regents &nbsp;|&nbsp; Email us at <a style="color: #ddf" href="mailto:rdi@berkeley.edu">rdi@berkeley.edu</a>.</p>
+  </div>
+</div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>

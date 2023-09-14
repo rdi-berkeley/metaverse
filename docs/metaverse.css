@@ -83,8 +83,12 @@
 }
 
 .coverage img {
-  height: 70px;
+  height: 64px;
   margin: 18px 0;
+}
+
+.small img {
+  height: 44px;
 }
 
 .bg-light {

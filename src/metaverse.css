@@ -97,21 +97,40 @@
 
 @media (max-width: 1399px) {
   .coverage img {
-    height: 60px;
+    height: 54px;
     margin: 12px 0;
+  }
+
+  .small img {
+    height: 38px;
   }
 }
 
 @media (max-width: 1199px) {
   .coverage img {
-    height: 50px;
+    height: 44px;
     margin: 10px 0;
+  }
+
+  .small img {
+    height: 31px;
+  }
+}
+
+@media (max-width: 991px) {
+  .coverage img {
+    height: 34px;
+    margin: 10px 0;
+  }
+
+  .small img {
+    height: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .coverage img {
-    height: 30px;
+    height: 24px;
     margin: 8px 0;
   }
 }
